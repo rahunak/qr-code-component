@@ -21,7 +21,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-<img src=""/>
+<img src="![_D__WorkingFolder_mentorFrontend com_qr-code-component-main_index html](https://user-images.githubusercontent.com/31304532/158152408-5f05e539-92c2-49d8-a67d-77b6263a662c.png)
+"/>
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
