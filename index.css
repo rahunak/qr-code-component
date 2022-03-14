@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+    ---fontSize: 15px;
+    --white: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+    background-color: var(--LightGray);
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: var(---fontSize);
+}
+@media (max-width:375px) {
+    .QRComponent {
+        background-color: var(--white);
+        margin: 40px auto;
+        border-radius: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 245px;
+    }
+  
+    .label{
+        font-weight: 700;
+        text-align: center;
+        padding: 25px 25px 0 25px;
+        margin: 0;
+    }
+    .paragraph{
+        text-align: center; 
+        padding: 25px;
+        margin: 0;
+        color: var(--GrayishBlue);
+    }
+    .imageQR {
+        margin: 15px ;
+        border-radius: 0.5rem;
+        width: 205px;
+    }
+    
+}
+@media (min-width: 375px) {
+    .QRComponent {
+        background-color: var(--white);
+        margin: 40px auto;
+        border-radius: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 325px;
+    }
+  
+    .label{
+        font-weight: 700;
+        text-align: center;
+        padding: 25px 25px 0 25px;
+        margin: 0;
+    }
+    .paragraph{
+        text-align: center; 
+        padding: 25px;
+        margin: 0;
+        color: var(--GrayishBlue);
+    }
+    .imageQR {
+        margin: 15px ;
+        border-radius: 0.5rem;
+        width: 285px;
+    }
+}
+@media (min-width: 1440px) {
+    .QRComponent {
+        background-color: var(--white);
+        margin: 40px auto;
+        border-radius: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 525px;
+    }
+  
+    .label{
+        font-weight: 700;
+        text-align: center;
+        padding: 25px 25px 0 25px;
+        margin: 0;
+    }
+    .paragraph{
+        text-align: center; 
+        padding: 25px;
+        margin: 0;
+        color: var(--GrayishBlue);
+    }
+    .imageQR {
+        margin: 15px ;
+        border-radius: 0.5rem;
+        width: 485px;
+    }
+}
